@@ -36,3 +36,4 @@ using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "fla
 def using_uniq(array)
   array.uniq
 end
+using_uniq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"])
