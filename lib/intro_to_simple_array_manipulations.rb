@@ -52,3 +52,7 @@ def using_delete(array, string)
   array.delete(string)
 end
 using_delete(["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"], "Steven")
+
+def using_delete_at(array, integer)
+  array.delete
+end
