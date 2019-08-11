@@ -33,6 +33,11 @@ def using_concat(my_favorite_things, more_favs)
 end
 using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "flatiron school"])
 
+def using.insert(array, element)
+  array.insert(element)
+end
+using.insert(,)
+
 def using_uniq(array)
   array.uniq
 end
