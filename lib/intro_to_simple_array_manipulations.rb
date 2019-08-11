@@ -36,7 +36,7 @@ using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "fla
 def using.insert(array, element)
   array.insert(element)
 end
-using.insert(,)
+using.insert(["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Python")
 
 def using_uniq(array)
   array.uniq
