@@ -33,10 +33,10 @@ def using_concat(my_favorite_things, more_favs)
 end
 using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "flatiron school"])
 
-def using.insert(array, element)
-  array.insert(4)
+def using_insert(array, element)
+  array.insert(4, element)
 end
-using.insert(["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Python")
+using_insert(["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Python")
 
 def using_uniq(array)
   array.uniq
