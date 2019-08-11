@@ -44,4 +44,5 @@ end
 using_uniq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"])
 
 def using_flatten(array)
+  array.flatten
 end
