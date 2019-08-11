@@ -29,5 +29,5 @@ end
 shift_with_args(["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"])
 
 def using_concat(my_favorite_things, more_favs)
-  array.concat
+  my_favorite_things.concat(more_favs)
 end
