@@ -31,3 +31,5 @@ shift_with_args(["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Bra
 def using_concat(my_favorite_things, more_favs)
   my_favorite_things.concat(more_favs)
 end
+using_concat(["raindrops on roses", "whiskers on kittens"]
+    , ["sports cars", "flatiron school"])
