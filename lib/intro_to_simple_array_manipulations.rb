@@ -34,7 +34,7 @@ end
 using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "flatiron school"])
 
 def using.insert(array, element)
-  array.insert(element)
+  array.insert(element[4])
 end
 using.insert(["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Python")
 
